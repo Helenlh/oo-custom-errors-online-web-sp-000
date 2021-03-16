@@ -23,7 +23,7 @@ class PartnerError < StandardError
 end 
 end 
 
-ruby lib/custom_errors.rb
+lib/custom_errors.rb
 
 beyonce = Person.new("Beyonce")
 beyonce.get_married("Jay-Z")
